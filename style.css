@@ -28,7 +28,7 @@
 
 body
 {
-    background: url('http://img.xooimage.com/files44/8/8/d/essai2-1dab0b8.jpg');
+    background: url('images/arriereplan.jpg');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
 }
@@ -108,6 +108,7 @@ article, aside
     display: inline-block;
     vertical-align: top;
     text-align: justify;
+    color:white;
 }
 
 article
@@ -165,11 +166,13 @@ footer h1
 #Facebook
 {
     width: 30%;
+    color: white;
 }
 
 #Nos_photos
 {
     width: 33%;
+    color: white;
 }
 
 #Nos_partenaires
@@ -196,6 +199,6 @@ footer h1
 #Nos_partenaires a
 {
     text-decoration: none;
-    color: #760001;
+    color: white;
 }
 
