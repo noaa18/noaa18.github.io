@@ -1,79 +1,68 @@
-index.html
-
 <!DOCTYPE html>
-<head>
-  <link href="/normalize.css" rel="stylesheet">
-  <style>
-    header {
-      text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
-      background-size: cover;
-      color: white;
-    }
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 70px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
-    }
-    ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <img src="/assets/jeff.png">
-    <h1>Feeling Fishing</h1>
-    <ul>
-      <li><a href="#">articles</a></li>
-      <li><a href="#">news</a></li>
-      <li><a href="#">you tube</a></li>
-    </ul>
-  </header>
-  <article>
-    <h2>VHS umami pop-up trust fund</h2>
-    <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Sartorial synth Echo Park, roof party</h2>
-    <p>chambray you probably haven't heard of them pour-over viral selvage umami skateboard VHS post-ironic selfies. Wes Anderson gentrify fanny pack twee, bicycle rights bitters blog keffiyeh plaid flannel. Tonx irony cliche sustainable mlkshk bitters. Four loko leggings chambray Vice.</p>
-    <button>Like</button>
-  </article>
-  <article>
-    <h2>Forage food truck keytar master cleanse</h2>
-    <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic Cosby sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
-    <button>Like</button>
-  </article>
-  <script>
-    $("button").on("click", function() {
-      alert("Clicked!");
-    });
-  </script>
-</body>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Feeling Fishing</title>
+    </head>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <h1>Feeling Fishing</h1>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="">Accueil</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Articles</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <article>
+                    <h3> News du 03/03/14 : Peche du chevesne aux leurres </h3>
+                    <p>Bonjour à toutes et à tous aujourdhui nous allons parler du chevesne et de sa pêche aux leurres. Le chevesne est poisson bien souvent delaissé les pêcheurs, ce qui est une grave erreure car il se prends de plein de façon et offre bien souvent un très joli combat et de plus peut atteindre de tres joli taille ( 70cm ). Il est de plus très bien representé dans la pluspart des cours d eau que sa soit en ville ou en millieu disont plus sauvage.......</p>
+                    <h3> News du 02/03/14 : peche de la perche aux leurres</h3>
+                    <p>Bonjour à tous , c' est avec joie qu' aujourdhui que je vais parler d' une de mes première pêche, celle de la perche. Ce poisson si beau et si interessant à leurrer car il se prends à toute les techniques , que ce soit leurres dur, souple, spinnerbait, cuiller, dropshot bref elle aime tous.....</p>
+                    <h3> News du 01/03/14 : peche de la truite aux leurres</h3>
+                    <p> Bonjour à toutes et à tous, dans cet article j' aborderais avec vous une pêche passionnante et sans doute celle que je préfère la pêche de la truite au poisson nageur en rivière. Rien de plus beau que d'aller arpenter les magnifiques rivières de nos régions en quête de dame fario qui possède bien souvent une robe magnifique.....</p>
+                    <h3> test de leurres : G-leurres striker </h3>
+                    <p>Le leurre bigbait Striker fait partit de la famille des gros jerkbaits. Le leurre bigbait Striker mesure 15.5cm pour un poids de 80gr.
+                    Un équipement spécifique est recommandé pour la pêche au leurre bigbait.Une canne casting de puissance adaptée ( extra heavy ou plus ) encaissera mieux les animations qu’ un ensemble spinning et vous permettra de propulser et animer votre leurre bigbait sans trop vous fatiguer .
+                    le leurre bigbait Striker nous est proposé en six coloris différents. ( winter camo skin, winter rl lazer, winter roach, hot camo, hot shot et enfin irish pike).</p>
+                    
+                </article>
+                <aside>
+                    <h1>À propos de nous</h1>
+                    <p>Nous sommes deux passionés de peche (kévin et jordan), pechons tout type de carnassiers aux leurres en eaux douce et en mer</p>
+                    <p>Vous pouvez nous suivre sur you tube et facebook en plus des nombreux articles présent sur ce site</p>
+                    <p><a href="http://www.facebook.com/feelingfishing11"><img src="images/facebook.png" alt="Facebook" /><a href="http://www.youtube.com/channel/UCf63TM4o_VjW0gJyTjQE6YQ"><img src="http://www.coudouliere.fr/oiseaux/img/youtube.gif" alt="youtube"/></p>
+                </aside>
+            </section>
+            
+            <footer>
+                <div id="Facebook">
+                    <h1>Dernier post facebook</h1>
+                    <p>Code promo de -15% sur le site génération leurres avec le code : feeling</p>
+                    <p>le 26 février à 18h50</p>
+                </div>
+                <div id="Nos_photos">
+                    <h1>Nos photos</h1>
+                    <p><img src="http://i2.cdscdn.com/pdt2/5/6/7/1/040x040/yoz4940764143567/rw/leurre-de-peche-yo-zuri-dino-crank-sd-modele-hpay.jpg "alt="Photographie" />
+                    <img src="http://i2.cdscdn.com/pdt2/0/0/6/1/040x040/biw9000289000006/rw/leurre-de-peche-biwaa-seven-4-modele-12.jpg" alt="Photographie" /><img src="http://www.1001loisirs.com/sites/default/files/styles/thumbnail/public/peche-en-mer-de-kourou_4698.jpg?itok=lbbhJVuL" alt="Photographie" /></p>
+                </div>
+                <div id="Nos_partenaires">
+                    <h1>Nos partenaires</h1>
+                    <ul>
+                        <li><a href="http://www.rapala.fr/">Rapala</a></li>
+                        <li><a href="http://www.lowrance.com/fr-fr/">Lowrance</a></li>
+                        <li><a href="http://www.generation-leurres.com/fr/">G-leurres</a></li>
+                        <li><a href="http://eu.crazy-fish.biz/">Crazy fish</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
