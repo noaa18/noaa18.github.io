@@ -1,4 +1,4 @@
-﻿/* Définition des polices personnalisées */
+﻿/*polices perso*/
 
 @font-face
 {
@@ -192,7 +192,7 @@ footer h1
     vertical-align: top;
     margin-top: 0;
     width: 48%;
-    list-style-image: url('images/ico_liensexterne.png');
+    list-style-image: url('images/ico_fleche.png');
     padding-left: 2px;
 }
 
